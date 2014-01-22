@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  <ImageView
+      android:id="@+id/iconDetail"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginLeft="4dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="4dp"
+      android:paddingTop="@dimen/activity_vertical_margin"
+      android:src="@drawable/ic_launcher" >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/itemTitleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="@+id/label"
+        android:textSize="20dp" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/itemDescriptionDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="@+id/label"
+        android:textSize="20dp" >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnBrowser"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToLink"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="Open in Browser" />
+
+</LinearLayout>
